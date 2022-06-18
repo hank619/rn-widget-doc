@@ -14,28 +14,25 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RN-Widget is coding with TypeScript, you only need to add several dependencies to your project.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Powerful',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        RN-Widget is a powerful widget library for React Native. It has a lot of widgets that usually used.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'With Form Embeded In',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        RN-Widget has Form embed in, it acts quite like the action of Form of <a href="https://ant.design/components/overview/">AntD</a>. So you don't have much cost to learn to use it.
       </>
     ),
   },
