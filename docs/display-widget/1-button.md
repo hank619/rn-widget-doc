@@ -1,6 +1,7 @@
 # Button
 
-Button is the common widget for click action. And we have [**FWButton**](#fwbutton) and [**CWButton**](#cwbutton)  derived from it. 
+Button is the common widget for click action. And we have [**FWButton**](#fwbutton) and [**CWButton**](#cwbutton)  derived from it.   
+We usually use FWButton and CWButton instead of Button directly.
 
 - props
 
