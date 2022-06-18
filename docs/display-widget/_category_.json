@@ -1,0 +1,8 @@
+{
+  "label": "DisplayWidget",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A group for the widget that only need to display, with no interactions"
+  }
+}
