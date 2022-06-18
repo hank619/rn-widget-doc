@@ -1,5 +1,18 @@
 # Fold
 
+A widge with title and content and the content is expandble.
+
+- props
+
+| Property     | Description                          | Type        | Default |
+|--------------|--------------------------------------|-------------|---------|
+|   style      | customize style for `Fold` container | `any`       | -       |
+| title        | title                                | `string`    | -       |
+| titleStyle   | style of title                       | `any`       | -       |
+| content      | content                              | `string`    | -       |
+| contentStyle | style of content                     | `any`       | -       |
+| children     | content                              | `ReactNode` | -       |
+
 ```tsx
 <Fold
   style={{ width: 300 }}

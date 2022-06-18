@@ -1,5 +1,28 @@
 # Dialog
 
+A common dialog implemented with Modal
+
+- props
+
+| Property                | Description                                                  | Type        | Default |
+|-------------------------|--------------------------------------------------------------|-------------|---------|
+| visible                 | variable to controller whether dialog is visible             | `boolean`   | -       |
+| dismiss                 | function to set varible of `visible`, co-work with `visible` | `function`  | -       |
+| style                   | style of dialog continer                                     | `any`       | -       |
+| title                   | title                                                        | `string`    | -       |
+| titleStyle              | style of title                                               | `any`       | -       |
+| content                 | content                                                      | `string`    | -       |
+| contentStyle            | style of content                                             | `any`       | -       |
+| children                | content                                                      | `ReactNode` | -       |
+| okText                  | text of positive button                                      | `string`    | -       |
+| okStyle                 | style of positive button                                     | `any`       | -       |
+| cancelText              | text of negative button                                      | `string`    | -       |
+| cancelStyle             | style of negative button                                     | `any`       | -       |
+| onOk                    | trigger when positive button is clicked                      | `function`  | -       |
+| onCancel                | trigger when negative button is clicked                      | `function`  | -       |
+| touchOutsideCancellable | dismiss dialog when touch outsid of dialog                   | `boolean`   | false   |
+
+
 ```tsx
 <Dialog
   visible={showDialog}
