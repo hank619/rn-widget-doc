@@ -14,6 +14,27 @@ A widget to dipslay status
 <Status 
   type={'success'}
   status={'SUCCESS STATUS'}
+  style={{ marginTop: 12, }}
+/>
+<Status 
+  type={'info'}
+  status={'PROCESS STATUS'}
+  style={{ marginTop: 12 }}
+/>
+<Status 
+  type={'error'}
+  status={'ERROR STATUS'}
+  style={{ marginTop: 12 }}
+/>
+<Status 
+  type={'warning'}
+  status={'PENDING STATUS'}
+  style={{ marginTop: 12 }}
+/>
+<Status 
+  type={'invalid'}
+  status={'ENDING STATUS'}
+  style={{ marginTop: 12 }}
 />
 ```
 

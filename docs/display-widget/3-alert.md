@@ -14,9 +14,24 @@ A widget to show alert
 
 ```tsx
 <Alert
-  style={{ width: 300 }}
+  style={{ width: 300, marginTop: 12 }}
   type={'success'}
   text={'Success Alert Success Alert Success Alert Success Alert Success Alert Success Alert '}
+/>
+<Alert
+  style={{ width: 300 , marginTop: 12}}
+  type={'info'}
+  text={'Info Alert Info Alert Info Alert Info Alert Info Alert Info Alert Info Alert '}
+/>
+<Alert
+  style={{ width: 300, marginTop: 12 }}
+  type={'error'}
+  text={'Error Alert Error Alert Error Alert Error Alert Error Alert Error Alert Error Alert '}
+/>
+<Alert
+  style={{ width: 300, marginTop: 12}}
+  type={'warning'}
+  text={'Warning Alert Warning Alert Warning Alert Warning Alert Warning Alert Warning Alert '}
 />
 ```
 

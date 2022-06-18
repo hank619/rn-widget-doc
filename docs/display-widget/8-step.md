@@ -26,6 +26,14 @@ Full Width Step
 | containerStyle | style of container         | `any`    | -       |
 | itemStyle      | style of each step item    | `any`    | -       |
 
+```tsx
+<Step.FWStep
+  containerStyle={{width: 300}}
+  total={3}
+  current={2}
+/>
+```
+
 ![fwstep](./img/fwstep.png)
 
 
@@ -41,5 +49,14 @@ custom Width Step
 | current        | current step, start from 1 | `number` | -       |
 | containerStyle | style of container         | `any`    | -       |
 | itemStyle      | style of each step item    | `any`    | -       |
+
+```tsx
+<Step.CWStep
+  containerStyle={{width: 300}}
+  itemStyle={{width: 50}}
+  total={3}
+  current={2}
+/>
+```
 
 ![cwstep](./img/cwstep.png)

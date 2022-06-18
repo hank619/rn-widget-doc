@@ -32,8 +32,20 @@ Full Width Button
 
 ```tsx
 <Button.FWButton
-  style={{ width: 300 }}
+  style={{ width: 300, marginTop: 12  }}
   text={'Submit'}
+  onClick={() => {SimpleToast.show('Submit')}}
+/>
+<Button.FWButton
+  style={{ width: 300, marginTop: 12  }}
+  text={'Submit'}
+  type={'secondary'}
+  onClick={() => {SimpleToast.show('Submit')}}
+/>
+<Button.FWButton
+  style={{ width: 300, marginTop: 12  }}
+  text={'Submit'}
+  disabled
   onClick={() => {SimpleToast.show('Submit')}}
 />
 ```
@@ -45,8 +57,20 @@ Custom Width Button
 
 ```tsx
 <Button.CWButton
-  style={{ marginHorizontal: 32, marginVertical: 12 }}
+  style={{ marginHorizontal: 32, marginTop: 12 }}
   text={'Submit'}
+  onClick={() => {SimpleToast.show('Submit')}}
+/>
+<Button.CWButton
+  style={{ marginHorizontal: 32, marginTop: 12 }}
+  text={'Submit'}
+  type={'secondary'}
+  onClick={() => {SimpleToast.show('Submit')}}
+/>
+<Button.CWButton
+  style={{ marginHorizontal: 32, marginTop: 12 }}
+  text={'Submit'}
+  disabled
   onClick={() => {SimpleToast.show('Submit')}}
 />
 ```
