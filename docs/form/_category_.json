@@ -1,7 +1,8 @@
 {
-  "label": "Form Widget",
+  "label": "Form",
   "position": 4,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Form widget is used to handle multiple input"
   }
 }
