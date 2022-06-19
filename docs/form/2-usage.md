@@ -40,6 +40,8 @@ We must put an `Button` widget with action `submit` in the form to trigger the a
 </Form>
 ```
 
+![form](img/form.gif)
+
 ## Field
 
 A wrapper for Element, it can be used with [Form](#form) or without [Form](#form) individually.   
@@ -60,6 +62,10 @@ The feature of Field is to provide `label`, `help`, `extra`, `validateStatus`, `
 | onChangePropsName | the props name for callback of value change                                                   | `string`                                                                                                               | `onChange` |
 | eventPropsName    | the props name for [lodash](https://github.com/lodash/lodash) to retriving value from event   | `string`                                                                                                               | -          |
 
+```tsx
+<Field label="Input" name="input" validateStaus='error' help='invalid input'>
+  <Input />
+</Field>
+```
 
-
-![form](img/form.gif)
+![field](./img/field.png)
