@@ -1,0 +1,47 @@
+# Color
+
+export const colors = {
+  primary: '#5858FF',
+  primarLight: '#F6F6FF',
+  black: '#212121',
+  grantie: '#666666',
+  stone: '#999999',
+  fog: '#BDBDBD', // usually used to display disbaled state
+  grey: '#EEEEEE',
+  ice: '#F9F9F9',
+  white: '#FFFFFF',
+  transparent: 'transparent',
+  green: '#108043',
+  lightGreen: '#EEFFEA',
+  blue: '#1E90FF',
+  lightBlue: '#E4F2FF',
+  red: '#F52209',
+  lightRed: '#FEE4E1',
+  yellow: '#CF8909',
+  lightYellow: '#FFF9ED',
+  mask: '#0000007f',
+}
+
+export const Component = () => {
+  return (
+    <div style={{display: "flex", flexDirect: "row", flexWrap: "wrap"}}>
+      {Object.keys(colors).map(item => {
+        return (
+          <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
+            <div 
+              style={{
+                backgroundColor: colors[item],
+                width: "100px",
+                height: "100px",
+                margin: "10px",
+              }}
+            />
+            <div>{item}</div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+<Component />

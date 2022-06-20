@@ -2,6 +2,7 @@
   "label": "ActionWidget",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "A group of widget to interact with user input"
   }
 }
